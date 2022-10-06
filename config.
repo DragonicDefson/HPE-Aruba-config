@@ -1,0 +1,28 @@
+; J9781A Configuration Editor; Created on release #YA.16.10.0023
+; Ver #14:41.44.00.04.19.02.13.98.82.34.61.18.28.f3.84.9c.63.ff.37.27:05
+hostname "WIN-EU87GM0KD8"
+dos-filter
+aruba-central disable
+activate software-update disable
+activate provision disable
+ip dns server-address priority 1 1.1.1.1
+ip dns server-address priority 2 9.9.9.9
+cwmp acs url "https://mv2arris.nl.dmdsdp.com/mv2arris"
+timesync sntp
+ip default-gateway 0.0.0.0
+snmp-server enable traps mac-notify
+snmp-server enable traps startup-config-change
+snmp-server enable traps running-config-change
+snmp-server enable traps mac-count-notify
+vlan 1
+   name "PRIMARY_VLAN"
+   untagged 1-52
+   ip address 0.0.0.0 255.255.255.0
+   ipv6 enable
+   ipv6 address autoconfig
+   ipv6 address dhcp full
+   exit
+trunk-load-balance L4-based
+password manager
+password operator
+password minimum-length 60

@@ -5,7 +5,7 @@ Decided to post it on GitHub for people bouncing their heads against HPE switche
 
 #### Important fixes (UPDATED AS OF 10/07/2022:1:19).
 
-- Adds SNTP Support. (works after reboot, but you'll have to find a NTPS service for it, normally your provider provides one).
+- Adds SNTP Support. (works after reboot, but you'll have to find a NTPS service for it, normally your ISP provides one).
 - Disables Aruba Central.
 - Disables Aruba software updates.
 - Disables Aruba provisioning.

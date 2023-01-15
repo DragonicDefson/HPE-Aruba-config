@@ -1,4 +1,4 @@
-# HPE Aruba Config
+# HPE Aruba config
 
 A little configuration I wrote for an HPE Aruba Enterprise switch,
 Decided to post it on GitHub for people bouncing their heads against HPE switches.
